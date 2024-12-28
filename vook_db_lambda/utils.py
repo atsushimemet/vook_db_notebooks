@@ -14,8 +14,8 @@ import numpy as np
 import pandas as pd
 import requests
 
-from vook_db_lambda.config import MAX_PAGE  # s3_file_name_products_raw_prev,
 from vook_db_lambda.config import (
+    MAX_PAGE,
     REQ_URL,
     REQ_URL_CATE,
     WANT_ITEMS_RAKUTEN,
